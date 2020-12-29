@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    tools:ignore="HardcodedText">
+
+    <Button
+        android:id="@+id/t_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="Taş"
+        android:textColor="#FF0000"
+        android:textColorHighlight="#FAF9F9"
+        tools:ignore="ButtonStyle" />
+
+    <Button
+        android:id="@+id/t_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="Kagıt"
+        android:textColor="#FF0000"
+        android:textColorHighlight="#FFFFFF" />
+
+    <Button
+        android:id="@+id/t_scissor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:text="Makas"
+        android:textColor="#FF0505"
+        android:textColorHighlight="#FFFFFF" />
+</LinearLayout>
