@@ -1,2 +1,2 @@
-# Ta-Ka-tMakas
+# TasKagtMakas
 Bitirme Sırasında yapılan bir ödev oyunu
